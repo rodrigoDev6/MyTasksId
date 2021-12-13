@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ====corpo da pagina=== */
+html{
+  font-family: 'roboto', sans-serif, serif;
+}
+
+main{
+  display: grid;
+  place-items: center;
+  margin: 2rem auto;
+
+  width: 25.875rem;
+  height: 46rem;
+
+  background: linear-gradient(90deg, #A1C4FD 0%, #C2E9FB 100%);
+  box-shadow: 0px 13px 25px rgba(47, 115, 196, 0.5);
+  border-radius: 20px;
+}
+
+.container .title{
+  margin-bottom:3px ;
+  font-family: 'Acme', sans-serif;
+  font-size: 36px;
+
+  font-weight: 400;
+  color: #103D78;
+
+  text-align: center
+}
+
+.container .subtitle{
+  margin-bottom: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #ffff;
+
+}
+
+.divider{
+  width: 250px;
+  height: 2px;
+  background-color: azure;
+  margin: 10px auto;
+}
+
+/* ===fim=== */
+
+/* ==LINKS== */
+.links button{
+  display: grid;
+  place-items: center;
+  margin: auto;
+
+  height: 2.1875rem;
+  width: 12.5rem;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 0.875rem;
+
+  border: none;
+  box-shadow: 0px 4px 7px rgba(69, 146, 218, 0.25);
+  border-radius: 1.25rem;
+}
+
+.links button a{
+text-decoration: none ;
+font-size: .875rem;
+color: #ffff;
+
+padding: 5px 1.5rem;
+}
+
+.links .login{
+  background-color: #63ABFF;
+  margin-bottom: 14px;
+
+}
+.links .signUp{
+  background-color: #6490E4;
+}
+
+/* ==FIM== */
+
+
